@@ -1,0 +1,27 @@
+.search-bar {
+  background-color: white;
+  position: sticky;
+  left: 6vw;
+  top: 3vh;
+  z-index: 2;
+  width: 20%;
+  border-radius: 6px;
+}
+.navbar {
+  height: 11%;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  z-index: 1;
+}
+@media screen and (max-width: 780px) {
+  .search-bar {
+    background-color: white;
+    position: sticky;
+    left: 6vw;
+    top: 3vh;
+    z-index: 2;
+    width: 43%;
+    border-radius: 6px;
+  }
+}
